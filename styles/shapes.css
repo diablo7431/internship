@@ -1,0 +1,114 @@
+.shapes {
+	overflow: hidden;
+
+	}
+.shapes #shp1 {
+	float: left;
+	font-size: 29px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	white-space: 20px;
+	margin: 80px 30px;
+}
+.square {
+  height: 100px;
+  width: 100px;
+  background-color:#679b9b;
+  margin: 15px 15px;
+  text-align: center;
+}
+.rectangle {
+  height: 100px;
+  width: 200px;
+  background-color: #679b9b;
+  margin: 15px 15px;
+  text-align: center;
+
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: #679b9b;
+  margin: 15px 15px;
+  text-align: center;
+
+}
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #679b9b;
+	text-align: center;
+}
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid #679b9b;
+  text-align: center;
+}
+.star {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #679b9b;
+  position: relative;
+}
+.star:after {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid #679b9b;
+  position: absolute;
+  content: "";
+  top: 30px;
+  left: -50px;
+}
+.star5 {
+  margin: 50px;
+  position: relative;
+  display: block;
+  color: #679b9b;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 50px solid#679b9b;
+  transform: rotate(35deg)
+}
+.star5:before {
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 80px solid #679b9b;
+  position:absolute;
+  height:0;
+  width:0;
+  top:-45px;
+  left:-65px;
+  display:block;
+  content:'';
+  transform: rotate(-35deg)
+  
+}
+.star5:after {
+      position: absolute;
+      display: block;
+      color: #679b9b;
+      top: 0px;
+      left: -111px;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 50px solid #679b9b;
+      border-left: 100px solid transparent;
+      transform: rotate(-70deg);
+      content: '';
+  
+  
+}

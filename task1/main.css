@@ -1,0 +1,43 @@
+/* Styling*/
+*{
+	margin: 0;
+	margin-bottom: 0%;
+	padding-bottom: 0%;
+
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0%;
+	padding-bottom: 0%; 
+	background-color: #deeaee;
+}
+
+.footer { 
+    margin-top: 80px;
+}
+.footer a {
+  text-decoration: none;
+  font-weight: 900;
+  color: #56ADFF;
+}
+
+.heading{
+	text-align: center;
+	font-weight: inherit;
+	font-family: Courier New;
+	font-size: 5vw;
+	background-image: url(headingback.png);
+	background-size: cover;
+	color: white;
+	
+
+
+}
+.para1 {
+	color: black;
+	opacity: 1;
+	margin-left: 50px;
+	margin-bottom: 45px;
+	margin-right: 40px;
+	background-color: #deeaee;
+}

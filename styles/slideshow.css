@@ -1,0 +1,25 @@
+.slidershow{
+	width: 90%;
+	height: 600px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	margin-top: 10%;
+	transform: translate(-50%, -10%);
+	background-size: 100% 100%;
+	box-shadow: 3px 1px 0px;
+	margin-bottom: 15%;
+	margin-top: 5%;
+	background-image: url(cv9-slider.png);
+	animation:slider 9s infinite linear;
+
+
+}
+@keyframes slider{
+	0%{ background-image: url(cv9-slider.png); }
+	33%{ background-image: url(cv9-slider.png); }
+	33.33%{ background-image: url(cv7-slider.png); }
+	66%{ background-image: url(cv7-slider.png); }
+	66.66%{ background-image: url(cv8-slider.png); }
+	99.996%{ background-image: url(cv8-slider.png); }
+}
